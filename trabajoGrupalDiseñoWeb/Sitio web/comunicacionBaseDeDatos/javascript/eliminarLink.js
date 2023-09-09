@@ -1,0 +1,3 @@
+function eliminarLink() {
+  actualizarVista();
+}

@@ -7,7 +7,7 @@
   </head>
   <body>
     <div id="barraNavegadora">
-      <h3>Hola.</h3>
+      <h3>Editor de Links</h3>
     </div>
     <form action="comunicacionBaseDeDatos\php\guardarLink.php" method="POST">
       <input type="text" name="nombre" placeholder="Nombre del Link">
@@ -16,25 +16,14 @@
       <input type="submit" name="Guardar" value="Guardar" id="guardar"></input>
     </form>
     <!-- Agregar:
-    diferenciador de edicion y añadir
-      function GetURLParameter(sParam)
-      {
-      var sPageURL = window.location.search.substring(1);
-      var sURLVariables = sPageURL.split('&');
-      for (var i = 0; i < sURLVariables.length; i++)
-      {
-          var sParameterName = sURLVariables[i].split('=');
-          if (sParameterName[0] == sParam)
-          {
-              return sParameterName[1];
-            }
-          }
-        }​
+
     procesamiento de imagenes
       -guardar imagen en base de datos y/o cliente
       -almacenar imagen como ruta a la imagen
+
     fecha de modificacion de un elemento
       -usar date(); o alguna variante y pasar valor a base de datos
     -->
+    <script src="comunicacionBaseDeDatos/editor.js" charset="utf-8"></script>
   </body>
 </html>
