@@ -7,22 +7,25 @@
   </head>
   <body>
     <div id="barraNavegadora">
-
+      <button type="button" name="paleta">Modo Oscuro</button>
     </div>
     <table id="mostradorTablas">
-      <tbody>
+      <tbody id="defecto">
         <tr>
-          <td>Nombre</td>
-          <td>Link</td>
-          <td>Fecha de modificación</td>
-          <td>Imágen</td>
+          <td class="itemLista">Nombre</td>
+          <td class="itemLista">Link</td>
+          <td class="itemLista">Fecha de modificación</td>
+          <td class="itemLista">Imágen</td>
+          <td class="itemLista"><button type="button" name="Añadir Link" onclick='window.location.href="editor.html";'> Añadir Link</button></td>
         </tr>
-        <tr>
-          <button type="button" name="Añadir Link"> Añadir Link</button>
-        </tr>
+      </tbody>
+      <tbody id="mostradorLinks">
+
       </tbody>
     </table>
 
     <script src="comunicacionBaseDeDatos\javascript\mostrarListaLinks.js" charset="utf-8"></script>
+    <script src="comunicacionBaseDeDatos\javascript\eliminarLink.js" charset="utf-8"></script>
+
   </body>
 </html>

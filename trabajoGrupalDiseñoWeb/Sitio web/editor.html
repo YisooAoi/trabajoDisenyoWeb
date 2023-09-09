@@ -9,11 +9,11 @@
     <div id="barraNavegadora">
       <h3>Editor de Links</h3>
     </div>
-    <form action="comunicacionBaseDeDatos\php\guardarLink.php" method="POST">
+    <form id="formularioEditor" action="comunicacionBaseDeDatos\php\guardarLink.php" method="POST">
       <input type="text" name="nombre" placeholder="Nombre del Link">
       <input type="text" name="link" placeholder="dirección del Link">
       <input type="text" name="imagen" placeholder="imagen">
-      <input type="submit" name="Guardar" value="Guardar" id="guardar"></input>
+      <input type="submit" name="Confirmar" value="Confirmar" id="guardar"></input>
     </form>
     <!-- Agregar:
 
@@ -24,6 +24,6 @@
     fecha de modificacion de un elemento
       -usar date(); o alguna variante y pasar valor a base de datos
     -->
-    <script src="comunicacionBaseDeDatos/editor.js" charset="utf-8"></script>
+    <script src="comunicacionBaseDeDatos/javascript/editor.js" charset="utf-8"></script>
   </body>
 </html>

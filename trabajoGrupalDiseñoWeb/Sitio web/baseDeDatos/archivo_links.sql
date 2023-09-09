@@ -26,13 +26,13 @@ INSERT INTO usuarios (nombre, contrasenya) VALUES
 
 USE archivo_links;
 INSERT INTO tablas (nombre, link, fecha_de_modificacion, imagen, identificador_usuario) VALUES
-('Fila A', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 2),
-('Fila B', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 2),
-('Fila C', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 2),
-('Fila D', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 1),
-('Fila E', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 2),
-('Fila F', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 1),
-('Fila G', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 1),
-('Fila H', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 2),
-('Fila I', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 2),
-('Fila J', 'https://www.wikipedia.com', '12-22-23', 'hello_world', 1);
+('Fila A', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 2),
+('Fila B', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 2),
+('Fila C', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 2),
+('Fila D', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 1),
+('Fila E', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 2),
+('Fila F', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 1),
+('Fila G', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 1),
+('Fila H', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 2),
+('Fila I', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 2),
+('Fila J', 'https://www.wikipedia.com', '2023-09-09', 'hello_world', 1);
